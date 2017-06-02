@@ -7,3 +7,9 @@ The link to the main repo is :~
 https://github.com/HackerNews/API
 
 
+![Splash screen	][Screenshots/one.png]
+![Screenchot][Screenshots/two.png]
+
+![Screenchot][Screenshots/three.png]
+
+

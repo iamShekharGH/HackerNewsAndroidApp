@@ -151,8 +151,8 @@ public class StoryInformationPage extends BottomSheetDialogFragment {
  * <p>
  * // TODO: Customize parameters
  * public static ItemListDialogFragment newInstance(int itemCount) {
- * final ItemListDialogFragment fragment = new ItemListDialogFragment();
- * final Bundle args = new Bundle();
+ * final ItemListDialogFragment fragment = news ItemListDialogFragment();
+ * final Bundle args = news Bundle();
  * args.putInt(ARG_ITEM_COUNT, itemCount);
  * fragment.setArguments(args);
  * return fragment;
@@ -165,8 +165,8 @@ public class StoryInformationPage extends BottomSheetDialogFragment {
  * }
  * @Override public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
  * //        final RecyclerView recyclerView = (RecyclerView) view;
- * //        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
- * //        recyclerView.setAdapter(new ItemAdapter(getArguments().getInt(ARG_ITEM_COUNT)));
+ * //        recyclerView.setLayoutManager(news LinearLayoutManager(getContext()));
+ * //        recyclerView.setAdapter(news ItemAdapter(getArguments().getInt(ARG_ITEM_COUNT)));
  * }
  * @Override public void onAttach(Context context) {
  * super.onAttach(context);
@@ -194,7 +194,7 @@ public class StoryInformationPage extends BottomSheetDialogFragment {
  * // TODO: Customize the item layout
  * super(inflater.inflate(R.layout.fragment_item_list_dialog_item, parent, false));
  * text = (TextView) itemView.findViewById(R.id.text);
- * text.setOnClickListener(new View.OnClickListener() {
+ * text.setOnClickListener(news View.OnClickListener() {
  * @Override public void onClick(View v) {
  * if (mListener != null) {
  * mListener.onItemClicked(getAdapterPosition());
@@ -214,7 +214,7 @@ public class StoryInformationPage extends BottomSheetDialogFragment {
  * mItemCount = itemCount;
  * }
  * @Override public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
- * return new ViewHolder(LayoutInflater.from(parent.getContext()), parent);
+ * return news ViewHolder(LayoutInflater.from(parent.getContext()), parent);
  * }
  * @Override public void onBindViewHolder(ViewHolder holder, int position) {
  * holder.text.setText(String.valueOf(position));

@@ -35,7 +35,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-//  Fragment_Webview.OnFragmentInteractionListener,Fragment_LoadStories.OnFragmentInteractionListener,
 
 public class NavDrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
@@ -65,7 +64,6 @@ public class NavDrawerActivity extends AppCompatActivity
     Story openStoryPage;
 
     Fragment_StoryList fragmentStoryList;
-//    Fragment_LoadStories fragmentLoadStories;
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
@@ -372,7 +370,7 @@ public class NavDrawerActivity extends AppCompatActivity
     }
 
     private void showNewStories() {
-        showToast("Showing new Stories.");
+        showToast("Showing news Stories.");
         changeStoryType(StoryType.NEW);
     }
 
@@ -417,7 +415,7 @@ public class NavDrawerActivity extends AppCompatActivity
         CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
         CustomTabsIntent customTabsIntent = builder.build();
         customTabsIntent.launchUrl(this, Uri.parse(url));
-//        addfragment(new Fragment_Webview());
+//        addfragment(news Fragment_Webview());
     }
 
     @Override
@@ -514,11 +512,11 @@ public class NavDrawerActivity extends AppCompatActivity
 //        storyListTopStories.add(story);
         topStoryIds.getStoryList().add(story);
 
-//        new ArrayList<>().add(story);
-//        L.i(TAG, new Gson().toJson(story));
+//        news ArrayList<>().add(story);
+//        L.i(TAG, news Gson().toJson(story));
 
 
-//        resultString = resultString + "Call No:\t" + receivedCount + "\n" + new Gson().toJson(story) + "\n" + "-----------------------------" + "\n";
+//        resultString = resultString + "Call No:\t" + receivedCount + "\n" + news Gson().toJson(story) + "\n" + "-----------------------------" + "\n";
 //        if (receivedCount % 19 == 0) {
 //            fragmentLoadStories.hideProgressBar();
 //            fragmentLoadStories.UpdateText(resultString);
@@ -564,15 +562,5 @@ public class NavDrawerActivity extends AppCompatActivity
     }
 
 //  <----------------------------------------------------
-
-//    @Override
-//    public String getUrl() {
-//        return url;
-//    }
-
-//    @Override
-//    public void onButtonClicked() {
-//        makeAllTheCalls();
-//    }
 
 }

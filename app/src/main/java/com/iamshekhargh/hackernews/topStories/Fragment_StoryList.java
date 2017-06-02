@@ -102,7 +102,7 @@ public class Fragment_StoryList extends Fragment implements StoryAdapter.Listene
         recyclerView.setAdapter(topStoryAdapter);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
 
-//        recyclerView.addOnItemTouchListener(new RecyclerView.OnItemTouchListener() {
+//        recyclerView.addOnItemTouchListener(news RecyclerView.OnItemTouchListener() {
 //            @Override
 //            public boolean onInterceptTouchEvent(RecyclerView rv, MotionEvent e) {
 //                return false;

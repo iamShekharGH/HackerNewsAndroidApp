@@ -150,7 +150,7 @@ public class Fragment_TopStories extends Fragment implements View.OnClickListene
             @Override
             public void onError() {
                 dismissProgressDialog();
-//                setUpTextView(new Gson().toJson(story));
+//                setUpTextView(news Gson().toJson(story));
             }
 
             @Override
@@ -192,7 +192,7 @@ public class Fragment_TopStories extends Fragment implements View.OnClickListene
 
 //        while (i < postCount) {
 //            Call<Story> call = apiInterface.getStories(idList[i]);
-//            call.enqueue(new CustomCallback<Story>() {
+//            call.enqueue(news CustomCallback<Story>() {
 //                @Override
 //                public void onDataArrived(Story story) {
 //                    i++;
@@ -207,7 +207,7 @@ public class Fragment_TopStories extends Fragment implements View.OnClickListene
 //
 //                @Override
 //                public void donnoWTFhappened(Response<Story> response) {
-//                    L.i(new Gson().toJson(response.body()));
+//                    L.i(news Gson().toJson(response.body()));
 //                }
 //            });
 ////            if (i == --postCount) {

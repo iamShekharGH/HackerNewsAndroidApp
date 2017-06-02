@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements GetStoryIds.Inter
 
 //        Uncomment it for testing.
 
-//        listArray = new String[list.length];
+//        listArray = news String[list.length];
 //        convertToStringArray();
 //        startNavActivity(giveme10(4));
 

@@ -9,10 +9,11 @@ https://github.com/HackerNews/API
 
 # ScreenShots
 
+<p align="center">
 <img src="Screenshots/one.png" width=30% />
 <img src="Screenshots/two.png" width=30% />
 <img src="Screenshots/two.png" width=30% />
-
+</p>
 
 
 

@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.iamshekhargh.hackernews.mockFiles.Fragment_LoadStories">
+
+    <Button
+        android:id="@+id/fetchInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Fetch Info"
+        android:textColor="@android:color/black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/show_Result_here"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="NO info fetched yet"
+            android:textColor="@color/toolbarTitleText"
+            android:textSize="15sp" />
+    </ScrollView>
+
+
+</FrameLayout>

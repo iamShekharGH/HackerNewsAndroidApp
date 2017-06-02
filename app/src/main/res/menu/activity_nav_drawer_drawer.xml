@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_top_stories"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Top Stories" />
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="New Stories" />
+        <item
+            android:id="@+id/nav_best"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Best Stories" />
+
+
+
+
+    <!--<item android:title="Other">-->
+    <!--<menu>-->
+    <item
+        android:id="@+id/nav_ask"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Ask Stories" />
+    <item
+        android:id="@+id/nav_job"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Job Stories" />
+    <item
+        android:id="@+id/nav_show"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Show Stories" />
+    </group>
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>

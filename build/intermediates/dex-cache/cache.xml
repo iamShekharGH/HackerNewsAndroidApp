@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/6b22501daa154b02ff1a409084a19b4776189ec2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0ffc166212a45af4f57f533ce8f8993fbeded61b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/9cb3b58ccd394ba5849edf98fbe267887d84aac4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_047ad77bdb30921a643ba63aadb8c48c6993f468/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/7456a5c8e7671ef846ce70cdfbc5428b29c03813/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_77013964c3599041c29ed69873bd9fca36658f7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/fed20d92689f0d23f3318ffe02443961301542b1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b1395124669f3b88b6c9b3f10f00d40658407e0c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/5d8069ad5e355fba97e39d7d29ccaca2f48a4b43/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2df2e09a0551f057fa935f7e790fb8b91716c92d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/e5795e097ddea4f3cb5972737f1d6540561d6bfe/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e4c6c9ca9f092ed096193f13d117f2359a4cb3a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/258d40fc0c89bf2e69f47fd4d1f4ae8476c612c5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70a9349df3cb6b8e23c2e5866ef157e57850e156">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca0fa51dfd3215c3f7274de7c034611425c67664/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/0bd38f2c297616c828f3c0ede52380dcac2c88f6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_46c7fed6928ab0e77d5ec02690990e55f392a7ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1b815186794cbc8fe9f7a41cc23e330fd17f4ab4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/e85575c1ec926f9b9d20cdd7c799cf7737b7c175/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7bbbf6bd953c5a498065da5289b6bf38edcb43d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/4c4e5fb8b9ed8bd766898dee9d1688126d9c10a5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8f82ceb970ffe8d9128c20e00dce253138b31289/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/b84a90297596df4f189342c63248d71b0c39d148/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a1489cae08183c68d3f7c17e016921264c1a9166/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/5d9b6b126b7f2ac02cc797d87bcfc2cd826465ac/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0d9aaf7fcfd91359cef28ce04d5b7bc08824d9ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/cbc708475922cffeaebe3ce2823abca358553dcd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b6d0edd4b0c787196f80fd5efbb037493e05049/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e96a50c579cad6bf0eed51d0feb86d2daeda374">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_86477b3c137905ab2d108481daebb66dc4bb7bd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iamShekharGH/.android/build-cache/4853efc311928393ae91f57538308a5bef395631/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Users/iamShekharGH/AndroidStudioProjects/HackerNews/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4754d947a0a4b567b41feba505ae316992ead06a/classes.dex" />
+    </item>
+
+</items>

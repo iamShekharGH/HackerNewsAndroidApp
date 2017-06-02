@@ -1,0 +1,56 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--<gradient-->
+    <!--android:angle="135"-->
+    <!--android:centerColor="#f2ff00"-->
+    <!--android:endColor="#00ffc8"-->
+    <!--android:startColor="#ff6600"-->
+    <!--android:type="linear" />-->
+
+    <!--<gradient-->
+        <!--android:angle="225"-->
+        <!--android:endColor="#f2ff00"-->
+        <!--android:startColor="#ff6600"-->
+        <!--android:type="linear" />-->
+
+
+    <gradient
+        android:angle="135"
+        android:endColor="@color/colorPrimaryDark"
+        android:startColor="@color/colorPrimary"
+        android:gradientRadius="301dp"
+        android:type="radial" />
+
+
+    <!--<gradient-->
+    <!--android:angle="135"-->
+    <!--android:centerColor="#f2ff00"-->
+    <!--android:endColor="#ff6600"-->
+    <!--android:startColor="#00ffc8"-->
+    <!--android:type="linear" />-->
+
+    <!--<gradient-->
+    <!--android:centerColor="#dc842c"-->
+    <!--android:endColor="#000000"-->
+    <!--android:gradientRadius="400dp"-->
+    <!--android:startColor="#f2ff00"-->
+    <!--android:type="radial" />-->
+
+    <!--<gradient-->
+    <!--android:centerColor="#0004ff"-->
+    <!--android:endColor="#000000"-->
+    <!--android:gradientRadius="200dp"-->
+    <!--android:startColor="#fefeff"-->
+    <!--android:type="radial" />-->
+
+
+    <!--<gradient-->
+    <!--android:angle="135"-->
+    <!--android:centerColor="#4CAF50"-->
+    <!--android:endColor="#2E7D32"-->
+    <!--android:startColor="#81C784"-->
+    <!--android:type="linear" />-->
+    <!---->
+
+
+</shape>

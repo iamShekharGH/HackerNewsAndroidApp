@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HackerNews</string>
+    <string name="thanks_for_going_thru_the_app">Thanks for going through the app . Feel free to email me at shekhargh@shekhargh.com for improvements</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="very_long_para">Some very Long para . What i need to do here is I nedd to keep it to max 3 lines and when the user clicks on it It may open a new fragment with all the information . nut the problem with that is if I am doing that i will also have to show all the comments on that page as that page is a dedicated Story page and has to show as much information as possible.</string>
+</resources>

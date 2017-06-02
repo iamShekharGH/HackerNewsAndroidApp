@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6600</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#bf360c</color>
+    <color name="colorAccent">#ff6d00</color>
+
+    <!--<color name="toolbarTitleText">#deffffff</color>-->
+    <color name="toolbarTitleText">#ffffff</color>
+
+    <!--<color name="appBackgrount">#828282</color>-->
+    <color name="appBackgrount">#eeeeee</color>
+
+</resources>

@@ -138,7 +138,7 @@ public class Fragment_StoryList extends Fragment implements StoryAdapter.Listene
     // Adapter Interface functions.
 
     @Override
-    public void launchFragment(String temp) {
+    public void openLinkInChrome(String temp) {
         helper.openThisUrl(temp);
 
     }
@@ -239,7 +239,7 @@ public class Fragment_StoryList extends Fragment implements StoryAdapter.Listene
         }
     }
 
-    private void hideSwipeRefreshing() {
+    public void hideSwipeRefreshing() {
         if (swiperefresh != null) {
             swiperefresh.setRefreshing(false);
         }

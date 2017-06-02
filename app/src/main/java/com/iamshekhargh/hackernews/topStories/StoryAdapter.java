@@ -32,7 +32,6 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.MyViewHolder
     Context context;
     Listener listener;
     String TAG = "StoryAdapter";
-    int position;
 
 
     public StoryAdapter(List<Story> storyItem, Context context, Fragment_StoryList fragment_storyList) {
@@ -74,38 +73,41 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.MyViewHolder
             if (item.getScore() != null) {
                 int temp = item.getScore();
                 holder.storyCardScore.setText(temp + " points.");
-            } else {
-                holder.storyCardScore.setText("");
-            }
+            } else holder.storyCardScore.setText("");
 
-            if (item.getText() != null) {
+            if (item.getText() != null)
                 holder.storyCardText.setText(item.getText());
-            } else {
-                holder.storyCardText.setVisibility(View.GONE);
-            }
-            if (item.getUrl() != null) {
-                holder.storyCardUrl.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Toast.makeText(context, "" + item.getUrl(), Toast.LENGTH_SHORT).show();
-                        listener.launchFragment(item.getUrl());
-                    }
-                });
-            } else {
-                holder.storyCardUrl.setVisibility(View.GONE);
-            }
-            holder.storyCardOpenInfo.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    listener.launchInfoPage(item);
+            else holder.storyCardText.setVisibility(View.GONE);
 
+
+            holder.storyCardUrl.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    openFragment(item);
                 }
             });
 
 
-        }
+            holder.storyCardOpenInfo.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (item.getUrl() != null)
+                        openLink(item);
+                    else showToast("Link not present.");
+                }
+            });
 
+        }
     }
+
+    @Override
+    public int getItemCount() {
+//        if (storyItem == null || storyItem.size() == 0) {
+//            return 1;
+//        }
+        return storyItem.size();
+    }
+
 
     private void fetchMoreItems() {
         L.i(TAG, "Fetch more items.");
@@ -128,13 +130,17 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.MyViewHolder
         }
     }
 
+    private void openLink(Story item) {
+        showToast("" + item.getUrl());
+        listener.openLinkInChrome(item.getUrl());
+    }
 
-    @Override
-    public int getItemCount() {
-//        if (storyItem == null || storyItem.size() == 0) {
-//            return 1;
-//        }
-        return storyItem.size();
+    private void openFragment(Story item) {
+        listener.launchInfoPage(item);
+    }
+
+    private void showToast(String message) {
+        Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
 
 
@@ -162,7 +168,7 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.MyViewHolder
     }
 
     public interface Listener {
-        void launchFragment(String temp);
+        void openLinkInChrome(String temp);
 
         void launchInfoPage(Story story);
 

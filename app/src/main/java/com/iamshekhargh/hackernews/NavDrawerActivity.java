@@ -94,7 +94,6 @@ public class NavDrawerActivity extends AppCompatActivity
 //        toolbar.setBackgroundResource(R.drawable.toolbar_background);
         toolbar.setTitle("Hacker News");
         toolbar.setTitleTextColor(getResources().getColor(R.color.toolbarTitleText));
-//        toolbar.setO
         setSupportActionBar(toolbar);
 
         initialiseElements();
@@ -148,7 +147,6 @@ public class NavDrawerActivity extends AppCompatActivity
         topStoryIds = new StoryIds();
         topStoryIds.setStoryType(StoryType.TOP);
         topStoryIds.setCurrentStoryCount(0);
-
 
         bestStoryIds = new StoryIds();
         bestStoryIds.setStoryType(StoryType.BEST);
@@ -491,6 +489,8 @@ public class NavDrawerActivity extends AppCompatActivity
             if (storyIds.getCurrentStoryCount() < storyIds.getList().length) {
                 getStories.getStories(storyIds.getList()[storyIds.getCurrentStoryCount()]);
                 storyIds.setCurrentStoryCount(storyIds.getCurrentStoryCount() + 1);
+            } else {
+                fragmentStoryList.hideSwipeRefreshing();
             }
         }
     }
